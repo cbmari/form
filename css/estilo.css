@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #00688B;
+}
+
+
+form{
+    color: white;
+    width: auto;
+    text-align: center;
+    height: 250px;
+    justify-content: center;
+}
+
+label{
+   
+    width: auto;
+    display: block;
+}
