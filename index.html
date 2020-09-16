@@ -12,21 +12,43 @@
 
 <body>
     <header>
-<nav class="navbar navbar-light bg-light" id="menu">
-    <a class="navbar-brand" href="#">
-      <img src="img/png.png" width="40" height="40" class="d-inline-block align-top" alt="">
-      Conddiz
-    </a>
-  </nav>
+        <!--nav-->
+        <nav class="navbar navbar-light bg-light" id="navbar">
+            <a class="navbar-brand display-4" href="#">
+                <img src="img/png.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                Conddiz
+            </a>
+        </nav>
     </header>
+    <!--container-->
     <section class="container col-sm-12">
         <div class="row">
+            <!--coluna1-->
             <div class="col-md-3">
+                <ul class="list-group" id="menu">
+                    <li class="list-group-item">
+                        <figure>
+                            <img src="img/img.png" alt="">
+                            <hr>
+                            <p>O que é Lorem Ipsum?
+                                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de
+                                impressos, e
+                                vem sendo utilizado desde o século XVI.</p>
+                        </figure>
+                    </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                    <li class="list-group-item"><a href="">link</a> </li>
+                </ul>
             </div>
+            <!--coluna2-->
             <div class="col-md-6">
                 <form>
                     <fieldset class="formulario">
-                        <h4 ><i class="fas fa-user"></i> Dados Pessoais:</h4>
+                        <h4><i class="fas fa-user"></i> Dados Pessoais:</h4>
                         <br>
                         <div class="form-group">
                             <label for="name">
@@ -44,53 +66,71 @@
                             <label for="phone">
                                 <h6><i class="fas fa-phone-alt"></i> Telefone:</h6>
                             </label>
-                            <input type="text" name="phone" id="phone" class="form-control form-control-sm" placeholder="(DDD)+">
+                            <input type="text" name="phone" id="phone" class="form-control form-control-sm"
+                                placeholder="(DDD)+">
                         </div>
                         <div class="form-group">
                             <label for="email">
                                 <h6><i class="fas fa-envelope-square"></i> E-mail:</h6>
                             </label>
-                            <input type="text" name="email" id="email" class="form-control form-control-sm"> 
+                            <input type="text" name="email" id="email" class="form-control form-control-sm">
                         </div>
-                        <h4><i class="fas fa-users"></i></i> Redes Sociais:</h4>
-                        <br>
-                        <div class="form-group">
-                            <label for="Whatsapp">
-                                <h6><i class="fab fa-whatsapp"></i> Whatsapp:</h6>
-                            </label>
-                            <input type="text" name="Whatsapp" id="Whatsapp" class="form-control form-control-sm">
-                        </div>
-                        <div class="form-group">
-                            <label for="Facebook">
-                                <h6><i class="fab fa-facebook-square"></i> Facebook:</h6>
-                            </label>
-                            <input type="text" name="Facebook" id="Facebook" class="form-control form-control-sm">
-                        </div>
-                        <div class="form-group">
-                            <label for="Instagram">
-                                <h6><i class="fab fa-instagram"></i> Instagram:</h6>
-                            </label>
-                            <input type="text" name="Instagram" id="Instagram" class="form-control form-control-sm">
-                        </div>
-                        <div class="form-group">
-                            <label for="TikTok">
-                                <h6><i class="fab fa-tiktok"></i> TikTok</h6>
-                            </label>
-                            <input type="text" name="TikTok" id="Tiktok" class="form-control form-control-sm">
-                        </div>
-                        <div class="botão">
-                            <button type="button" class="btn btn-outline-light btn-sm">Enviar</button>
-                        </div>
+                </form>
+                <form>
+                    <h4><i class="fas fa-users"></i></i> Redes Sociais:</h4>
+                    <br>
+                    <div class="form-group">
+                        <label for="Whatsapp">
+                            <h6><i class="fab fa-whatsapp"></i> Whatsapp:</h6>
+                        </label>
+                        <input type="text" name="Whatsapp" id="Whatsapp" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="Facebook">
+                            <h6><i class="fab fa-facebook-square"></i> Facebook:</h6>
+                        </label>
+                        <input type="text" name="Facebook" id="Facebook" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="Instagram">
+                            <h6><i class="fab fa-instagram"></i> Instagram:</h6>
+                        </label>
+                        <input type="text" name="Instagram" id="Instagram" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                        <label for="TikTok">
+                            <h6><i class="fab fa-tiktok"></i> TikTok</h6>
+                        </label>
+                        <input type="text" name="TikTok" id="Tiktok" class="form-control form-control-sm">
+                    </div>
+                    <div class="botão">
+                        <button type="submit" class="btn btn-outline-light btn-sm ">Enviar</button>
+                    </div>
                     </fieldset>
                 </form>
-    
             </div>
-            
-            <div class="col-md-3">
-
+            <!--coluna3-->
+            <div class="col-md-3" id="coluna3">
+                <div class="jumbotron">
+                    <h1 class="display-4">Conddiz</h1>
+                    <h6>Everything is connected!</h6>
+                    <p class="lead">O que é Lorem Ipsum?
+                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                        sendo utilizado desde o século XVI.</p>
+                    <hr class="my-4">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        <hr>
+                    <a class="btn btn-outline-info btn-sm" href="#" role="button">Leia mais</a>
+                </div>
             </div>
     </section>
+    <hr>
     <footer>
+        <div class="blockquote-footer">
+            <i class="fab fa-copyright">copyright</i>
+        </div>
     </footer>
     <script type="text/javascript" src="js/jQuery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
