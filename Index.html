@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="CSS/css/bootstrap.min.css">
+  <title>JavaScript</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="display-4">Testando JavaScript!</h1>
+    <p class="lead">Por que não devo utilizar as tags "script" no inicio do HTML?</p>
+    <hr class="my-4">
+    <p>Porque no momento do carregamento da página, o browser vai executar o que estiver na tag "script" e poderá bloquear
+      o carregamento dos outros elementos até o javascript ser inteiramente interpretado.</p>
+    <p class="lead">
+      <button type="button" class="btn btn-dark" onclick="funcao1()">Clique aqui</button>
+    </p>
+  </div>
+  <script>
+    function funcao1() {
+      alert("Tags-> Conj. de caracteres que formam um elemento. Elementos-> são formados a partir de tags, entre as tags se encontra o conteúdo do elemento. Atributos-> são informações que passamos na tag para que ela se comporte de maneira esperada.");
+    }
+  </script>
+  <!-- <script type="text/javascript">
+    var nome = prompt('Digite seu nome: ');
+    alert(nome + ', seja bem vindo!');
+  </script> -->
+  <script type="text/javascript" src="JS/jquery.js"></script>
+  <script type="text/javascript" src="JS/js/bootstrap.min.js"></script>
+</body>
+</html>
